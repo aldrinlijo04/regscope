@@ -531,6 +531,16 @@ Built by [@aldrinlijo04](https://github.com/aldrinlijo04)
 MIT License - See LICENSE file for details
 ### **Phase 2: Enterprise Features** (Q4 2025)
 - Workflow integration (Slack, Teams, Email)
+## 🌐 Live Deployment
+
+🚀 **RegScope is live on Render!**
+
+- **Frontend**: [https://regscope-frontend.onrender.com](https://regscope-frontend.onrender.com)
+- **Backend API**: [https://dashboard.render.com/web/srv-d43p3djipnbc73c68ng0v](https://dashboard.render.com/web/srv-d43p3djipnbc73c68ng0v)
+- **API Documentation**: [View API Docs](https://dashboard.render.com/web/srv-d43p3djipnbc73c68ng0v/docs)
+
+---
+
 ## 🚀 Get Started Now!
 
 ```bash
@@ -582,15 +592,4 @@ This project is developed for the IBM TechXchange Hackathon 2025. All rights res
 
 ---
 
-## 🚀 Get Started Now!
 
-```bash
-# One-command setup
-git clone https://github.com/nathangtg/legal-guard-regtech && cd legal-guard-regtech && ./setup.sh
-```
-
-**Experience the Future of Legal Technology Today!** 🌟
-
----
-
-*Made with 💙 using IBM Watson X.ai technology*
