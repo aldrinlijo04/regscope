@@ -1,0 +1,234 @@
+{
+  "law_id": "PCI_DSS_GLOBAL",
+  "full_name": "Payment Card Industry Data Security Standard v4.0",
+  "jurisdiction": "Global",
+  "type": "Payment Security Standard",
+  "effective_date": "2022-03-31",
+  "last_updated": "2025-01-01",
+  "description": "Global security standard for organizations that handle cardholder data, mandated by major card brands (Visa, Mastercard, American Express, Discover, JCB).",
+  "key_requirements": [
+    {
+      "id": "PCI_R001",
+      "title": "Install and Maintain Network Security Controls",
+      "description": "Implement firewalls and network segmentation to protect cardholder data environment",
+      "category": "Network Security",
+      "severity": "critical",
+      "requirements": [
+        "Install and maintain network security controls (firewalls, routers)",
+        "Apply secure configurations to all system components",
+        "Segment cardholder data environment from other networks",
+        "Restrict connections between trusted and untrusted networks",
+        "Document and diagram all network flows and system connections"
+      ]
+    },
+    {
+      "id": "PCI_R002",
+      "title": "Apply Secure Configurations",
+      "description": "Develop and maintain secure configurations for all system components",
+      "category": "System Hardening",
+      "severity": "high",
+      "requirements": [
+        "Change all vendor-supplied defaults before system deployment",
+        "Remove or disable unnecessary services, protocols, and accounts",
+        "Implement and maintain configuration standards for all components",
+        "Encrypt administrative access using strong cryptography",
+        "Maintain inventory of system components in scope"
+      ]
+    },
+    {
+      "id": "PCI_R003",
+      "title": "Protect Stored Account Data",
+      "description": "Protect cardholder data through encryption and secure storage",
+      "category": "Data Protection",
+      "severity": "critical",
+      "requirements": [
+        "Encrypt Primary Account Number (PAN) wherever stored",
+        "Never store sensitive authentication data after authorization",
+        "Mask PAN when displayed (show only first 6 and last 4 digits)",
+        "Render PAN unreadable using encryption, truncation, hashing",
+        "Document and implement data retention and disposal policies"
+      ]
+    },
+    {
+      "id": "PCI_R004",
+      "title": "Protect Cardholder Data in Transit",
+      "description": "Encrypt transmission of cardholder data across open, public networks",
+      "category": "Data Transmission",
+      "severity": "critical",
+      "requirements": [
+        "Use strong cryptography (TLS 1.2 or higher) for transmission",
+        "Never send unprotected PANs via email, instant messaging, SMS",
+        "Ensure wireless networks transmitting cardholder data use encryption",
+        "Implement proper certificate management and validation",
+        "Use only trusted keys and certificates"
+      ]
+    },
+    {
+      "id": "PCI_R005",
+      "title": "Protect Systems Against Malware",
+      "description": "Implement anti-malware solutions on all systems",
+      "category": "Malware Protection",
+      "severity": "high",
+      "requirements": [
+        "Deploy anti-malware software on all systems commonly affected by malware",
+        "Ensure anti-malware mechanisms are kept current and active",
+        "Perform periodic malware scans",
+        "Generate and review anti-malware logs",
+        "Educate personnel on malware risks"
+      ]
+    },
+    {
+      "id": "PCI_R006",
+      "title": "Develop and Maintain Secure Systems",
+      "description": "Identify security vulnerabilities and protect against known threats",
+      "category": "Vulnerability Management",
+      "severity": "critical",
+      "requirements": [
+        "Establish process to identify and rank security vulnerabilities",
+        "Install vendor-supplied security patches within one month",
+        "Deploy critical patches within regulatory timeframes",
+        "Develop applications based on secure coding guidelines",
+        "Conduct security assessments before production deployment"
+      ]
+    },
+    {
+      "id": "PCI_R007",
+      "title": "Restrict Access by Business Need-to-Know",
+      "description": "Limit access to cardholder data to only those who need it",
+      "category": "Access Control",
+      "severity": "high",
+      "requirements": [
+        "Limit access to system components and cardholder data to need-to-know",
+        "Assign access based on job classification and function",
+        "Implement default deny-all policy",
+        "Document and approve all access privileges",
+        "Review access rights at least every six months"
+      ]
+    },
+    {
+      "id": "PCI_R008",
+      "title": "Identify Users and Authenticate Access",
+      "description": "Assign unique ID to each person with computer access",
+      "category": "Authentication",
+      "severity": "critical",
+      "requirements": [
+        "Assign unique ID to each user before allowing access",
+        "Implement multi-factor authentication for all access to CDE",
+        "Use strong authentication methods and encryption",
+        "Document and communicate authentication procedures",
+        "Implement account lockout after failed login attempts"
+      ]
+    },
+    {
+      "id": "PCI_R009",
+      "title": "Restrict Physical Access",
+      "description": "Control physical access to cardholder data and systems",
+      "category": "Physical Security",
+      "severity": "high",
+      "requirements": [
+        "Use facility entry controls to limit physical access",
+        "Implement procedures to identify and authorize visitors",
+        "Secure all media containing cardholder data",
+        "Destroy media when no longer needed for business or legal reasons",
+        "Protect devices that capture payment card data"
+      ]
+    },
+    {
+      "id": "PCI_R010",
+      "title": "Log and Monitor All Access",
+      "description": "Track and monitor all access to network resources and cardholder data",
+      "category": "Logging & Monitoring",
+      "severity": "critical",
+      "requirements": [
+        "Implement audit trails to link access to individual users",
+        "Log all actions taken by privileged users",
+        "Secure audit trail logs so they cannot be altered",
+        "Review logs daily for suspicious activity",
+        "Retain audit log history for at least one year"
+      ]
+    },
+    {
+      "id": "PCI_R011",
+      "title": "Test Security Systems Regularly",
+      "description": "Regularly test security systems and processes",
+      "category": "Security Testing",
+      "severity": "high",
+      "requirements": [
+        "Perform quarterly internal and external vulnerability scans",
+        "Conduct annual penetration testing",
+        "Implement file integrity monitoring on critical files",
+        "Test security controls after any significant change",
+        "Use qualified security assessor or internal security team"
+      ]
+    },
+    {
+      "id": "PCI_R012",
+      "title": "Support Information Security with Policies",
+      "description": "Maintain policy that addresses information security for all personnel",
+      "category": "Security Governance",
+      "severity": "high",
+      "requirements": [
+        "Establish, publish, and maintain security policy",
+        "Implement operational security procedures",
+        "Define security responsibilities for all personnel",
+        "Conduct security awareness training for all personnel",
+        "Screen potential employees prior to hire",
+        "Maintain incident response plan and test regularly"
+      ]
+    }
+  ],
+  "compliance_checklist": [
+    "Firewalls and network segmentation implemented",
+    "All vendor default passwords and settings changed",
+    "Cardholder data encrypted at rest using strong cryptography",
+    "Sensitive authentication data not stored post-authorization",
+    "TLS 1.2 or higher used for data transmission",
+    "Anti-malware software deployed and updated regularly",
+    "Security patches installed within required timeframes",
+    "Access to cardholder data restricted to business need-to-know",
+    "Unique user IDs assigned to all users",
+    "Multi-factor authentication implemented for CDE access",
+    "Physical access controls for data centers and systems",
+    "Comprehensive logging and monitoring implemented",
+    "Quarterly vulnerability scans completed",
+    "Annual penetration testing conducted",
+    "Security policy documented and communicated",
+    "Security awareness training conducted annually",
+    "Incident response plan developed and tested"
+  ],
+  "compliance_levels": {
+    "Level 1": "Merchants processing over 6 million transactions annually - Annual Report on Compliance (ROC) by QSA and quarterly network scans",
+    "Level 2": "Merchants processing 1-6 million transactions annually - Annual Self-Assessment Questionnaire (SAQ) and quarterly network scans",
+    "Level 3": "Merchants processing 20,000-1 million e-commerce transactions annually - Annual SAQ and quarterly network scans",
+    "Level 4": "Merchants processing fewer than 20,000 e-commerce transactions or up to 1 million other transactions - Annual SAQ and quarterly network scans (may be required by acquirer)"
+  },
+  "penalties": {
+    "description": "Non-compliance penalties imposed by card brands and acquiring banks:",
+    "examples": [
+      "Monthly fines ranging from $5,000 to $100,000",
+      "Increased transaction fees per violation",
+      "Card brand may terminate merchant account",
+      "Liability for fraud losses if data breach occurs",
+      "Remediation costs for forensic investigation",
+      "Potential lawsuits and regulatory action"
+    ]
+  },
+  "related_regulations": [
+    "GDPR_EU",
+    "PSD2_EU",
+    "GLBA_US",
+    "CCPA_US"
+  ],
+  "regulatory_bodies": [
+    {
+      "name": "PCI Security Standards Council",
+      "role": "Develops and maintains PCI DSS standards",
+      "website": "https://www.pcisecuritystandards.org"
+    },
+    {
+      "name": "Card Brands",
+      "role": "Enforce compliance requirements",
+      "examples": ["Visa", "Mastercard", "American Express", "Discover", "JCB"]
+    }
+  ]
+}

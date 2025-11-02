@@ -1,0 +1,128 @@
+{
+  "law_id": "PSD2_EU",
+  "full_name": "Payment Services Directive 2 (EU) 2015/2366",
+  "jurisdiction": "European Union",
+  "type": "Payment Services Regulation",
+  "effective_date": "2018-01-13",
+  "last_updated": "2025-01-01",
+  "description": "EU directive regulating payment services and payment service providers, introducing Strong Customer Authentication (SCA) and open banking requirements.",
+  "key_requirements": [
+    {
+      "id": "PSD2_R001",
+      "title": "Strong Customer Authentication (SCA)",
+      "description": "Payment service providers must implement multi-factor authentication for electronic payments",
+      "category": "Security",
+      "severity": "critical",
+      "requirements": [
+        "Two or more authentication elements from knowledge, possession, and inherence",
+        "Independence of elements ensuring breach of one does not compromise others",
+        "Dynamic linking for remote electronic transactions",
+        "Apply SCA for payment initiation, account access, and remote transactions"
+      ]
+    },
+    {
+      "id": "PSD2_R002",
+      "title": "Open Banking API Access",
+      "description": "Account servicing payment service providers must provide access to payment account through dedicated APIs",
+      "category": "Technical Standards",
+      "severity": "high",
+      "requirements": [
+        "Provide APIs for account information access",
+        "Enable payment initiation through APIs",
+        "Ensure same level of availability as online banking",
+        "Support standardized API protocols (Berlin Group, Open Banking UK, STET)"
+      ]
+    },
+    {
+      "id": "PSD2_R003",
+      "title": "Third Party Provider (TPP) Registration",
+      "description": "Payment initiation and account information service providers must be authorized and registered",
+      "category": "Authorization",
+      "severity": "critical",
+      "requirements": [
+        "Obtain authorization from competent national authority",
+        "Maintain professional indemnity insurance or comparable guarantee",
+        "Register in national registry of payment institutions",
+        "Comply with capital requirements based on transaction volume"
+      ]
+    },
+    {
+      "id": "PSD2_R004",
+      "title": "Customer Data Protection",
+      "description": "Payment service providers must ensure secure processing and transmission of sensitive payment data",
+      "category": "Data Protection",
+      "severity": "high",
+      "requirements": [
+        "Encrypt sensitive payment data in transit and at rest",
+        "Implement access controls and audit trails",
+        "Ensure GDPR compliance for personal data processing",
+        "Maintain incident response and breach notification procedures"
+      ]
+    },
+    {
+      "id": "PSD2_R005",
+      "title": "Transaction Monitoring and Reporting",
+      "description": "Detect and report suspicious transactions and security incidents",
+      "category": "Compliance",
+      "severity": "high",
+      "requirements": [
+        "Implement real-time fraud detection systems",
+        "Report major security incidents to national competent authority",
+        "Notify customers of suspected or actual fraud",
+        "Maintain transaction logs for minimum 5 years"
+      ]
+    },
+    {
+      "id": "PSD2_R006",
+      "title": "Payment Service User Rights",
+      "description": "Ensure transparency and protect payment service user rights",
+      "category": "Consumer Protection",
+      "severity": "medium",
+      "requirements": [
+        "Provide clear information on fees and charges",
+        "Enable liability protection for unauthorized transactions",
+        "Implement refund rights for unauthorized or incorrectly executed transactions",
+        "Provide timely notification of transaction execution"
+      ]
+    }
+  ],
+  "compliance_checklist": [
+    "Strong Customer Authentication implemented for all electronic payments",
+    "APIs available for Third Party Providers with same availability as online banking",
+    "TPP authorization obtained from national competent authority",
+    "Customer data encrypted in transit and at rest",
+    "GDPR compliance ensured for payment data processing",
+    "Fraud detection and transaction monitoring systems operational",
+    "Security incident reporting procedures established",
+    "Professional indemnity insurance maintained",
+    "Payment service user information and consent mechanisms implemented",
+    "Regulatory Technical Standards (RTS) on SCA compliance verified"
+  ],
+  "penalties": {
+    "description": "Non-compliance penalties vary by member state, typically including:",
+    "examples": [
+      "Administrative fines up to 5% of annual turnover",
+      "Suspension or revocation of authorization",
+      "Public warnings and reputational damage",
+      "Civil liability for damages to payment service users"
+    ]
+  },
+  "related_regulations": [
+    "GDPR_EU",
+    "EIDAS_EU",
+    "5AMLD_EU",
+    "MiFID_II_EU"
+  ],
+  "regulatory_bodies": [
+    {
+      "name": "European Banking Authority (EBA)",
+      "role": "Technical standards and guidelines",
+      "website": "https://www.eba.europa.eu"
+    },
+    {
+      "name": "National Competent Authorities",
+      "role": "Authorization and supervision in each member state",
+      "examples": ["BaFin (Germany)", "AMF (France)", "FCA (UK - pre-Brexit)", "Bank of Spain"]
+    }
+  ]
+}

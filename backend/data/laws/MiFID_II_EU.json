@@ -1,0 +1,199 @@
+{
+  "law_id": "MiFID_II_EU",
+  "full_name": "Markets in Financial Instruments Directive II (2014/65/EU)",
+  "jurisdiction": "European Union",
+  "type": "Financial Markets Regulation",
+  "effective_date": "2018-01-03",
+  "last_updated": "2025-01-01",
+  "description": "EU legislation providing harmonized regulation for investment services across European Economic Area, enhancing investor protection and market transparency.",
+  "key_requirements": [
+    {
+      "id": "MIFID_R001",
+      "title": "Client Categorization",
+      "description": "Classify clients as retail, professional, or eligible counterparties",
+      "category": "Client Protection",
+      "severity": "high",
+      "requirements": [
+        "Categorize all clients upon onboarding",
+        "Apply appropriate protection levels based on classification",
+        "Allow clients to request different categorization",
+        "Maintain records of client classification decisions",
+        "Notify clients of their categorization"
+      ]
+    },
+    {
+      "id": "MIFID_R002",
+      "title": "Best Execution",
+      "description": "Take all sufficient steps to obtain best possible result for client orders",
+      "category": "Order Execution",
+      "severity": "critical",
+      "requirements": [
+        "Establish and implement best execution policy",
+        "Consider price, costs, speed, likelihood of execution and settlement",
+        "Monitor effectiveness of execution arrangements regularly",
+        "Publish annual top five execution venues report",
+        "Obtain prior client consent to execution policy"
+      ]
+    },
+    {
+      "id": "MIFID_R003",
+      "title": "Product Governance",
+      "description": "Implement product governance arrangements for manufactured and distributed financial instruments",
+      "category": "Product Oversight",
+      "severity": "high",
+      "requirements": [
+        "Define target market for each financial product",
+        "Conduct product approval process before distribution",
+        "Review products regularly and after significant events",
+        "Ensure products meet needs of identified target market",
+        "Provide distributors with relevant product information"
+      ]
+    },
+    {
+      "id": "MIFID_R004",
+      "title": "Suitability and Appropriateness",
+      "description": "Assess client knowledge, experience, and financial situation before providing services",
+      "category": "Client Assessment",
+      "severity": "critical",
+      "requirements": [
+        "Conduct suitability assessment for investment advice and portfolio management",
+        "Perform appropriateness test for complex products",
+        "Obtain information on client's investment objectives and risk tolerance",
+        "Provide suitability report to retail clients",
+        "Issue warnings when products are not appropriate"
+      ]
+    },
+    {
+      "id": "MIFID_R005",
+      "title": "Transaction Reporting",
+      "description": "Report details of transactions in financial instruments to competent authorities",
+      "category": "Regulatory Reporting",
+      "severity": "critical",
+      "requirements": [
+        "Report all transactions in financial instruments to regulators",
+        "Submit reports by end of next working day (T+1)",
+        "Include required data fields per ESMA technical standards",
+        "Ensure accuracy and completeness of reported data",
+        "Implement systems to capture and transmit transaction reports"
+      ]
+    },
+    {
+      "id": "MIFID_R006",
+      "title": "Market Transparency",
+      "description": "Provide pre-trade and post-trade transparency for equity and non-equity instruments",
+      "category": "Market Transparency",
+      "severity": "high",
+      "requirements": [
+        "Publish current bid and offer prices for traded instruments",
+        "Disclose post-trade information on executed transactions",
+        "Apply transparency requirements to equity and non-equity instruments",
+        "Implement transparency waivers only where permitted",
+        "Ensure real-time publication of trade data"
+      ]
+    },
+    {
+      "id": "MIFID_R007",
+      "title": "Inducements and Conflicts of Interest",
+      "description": "Manage and disclose conflicts of interest and restrictions on inducements",
+      "category": "Conduct of Business",
+      "severity": "high",
+      "requirements": [
+        "Identify and manage conflicts of interest",
+        "Disclose conflicts to clients before providing services",
+        "Prohibit inducements for independent investment advice",
+        "Ensure inducements enhance quality of service to client",
+        "Maintain conflicts of interest policy and register"
+      ]
+    },
+    {
+      "id": "MIFID_R008",
+      "title": "Record Keeping",
+      "description": "Maintain comprehensive records of services, transactions, and client communications",
+      "category": "Documentation",
+      "severity": "high",
+      "requirements": [
+        "Record all services and transactions",
+        "Retain records for minimum 5 years",
+        "Record telephone conversations and electronic communications",
+        "Maintain client order records with timestamps",
+        "Ensure records are available for regulatory inspection"
+      ]
+    },
+    {
+      "id": "MIFID_R009",
+      "title": "Algorithmic and High-Frequency Trading",
+      "description": "Implement controls and risk management for algorithmic trading",
+      "category": "Trading Systems",
+      "severity": "critical",
+      "requirements": [
+        "Implement effective systems, risk controls, and governance",
+        "Test algorithms thoroughly before deployment",
+        "Monitor algorithmic trading systems in real-time",
+        "Implement kill switches and pre-trade controls",
+        "Notify regulators of algorithmic trading activity",
+        "Store accurate time-sequenced records of all orders"
+      ]
+    },
+    {
+      "id": "MIFID_R010",
+      "title": "Client Asset Protection",
+      "description": "Safeguard client assets and funds through segregation and oversight",
+      "category": "Asset Protection",
+      "severity": "critical",
+      "requirements": [
+        "Segregate client assets from firm's own assets",
+        "Hold client funds in designated client accounts",
+        "Conduct regular reconciliations of client positions",
+        "Implement organizational arrangements to minimize risk of loss",
+        "Provide client asset protection disclosures"
+      ]
+    }
+  ],
+  "compliance_checklist": [
+    "Client categorization process implemented and documented",
+    "Best execution policy established and published",
+    "Product governance framework for manufactured products",
+    "Target market definition for all distributed products",
+    "Suitability and appropriateness assessments conducted",
+    "Transaction reporting system operational (T+1 reporting)",
+    "Pre-trade and post-trade transparency requirements met",
+    "Conflicts of interest identified and managed",
+    "Inducements policy compliant with MiFID II restrictions",
+    "Telephone and electronic communications recording implemented",
+    "Records retained for minimum 5 years",
+    "Algorithmic trading controls and testing procedures",
+    "Client assets segregated from firm assets",
+    "Annual best execution reports published",
+    "Client reporting and disclosures provided as required"
+  ],
+  "penalties": {
+    "description": "Sanctions for MiFID II non-compliance vary by member state, including:",
+    "examples": [
+      "Administrative fines up to €5 million or 10% of annual turnover",
+      "Public warnings and statements",
+      "Suspension or withdrawal of authorization",
+      "Temporary ban on management from exercising functions",
+      "Criminal sanctions in some jurisdictions",
+      "Disgorgement of profits from non-compliant activities"
+    ]
+  },
+  "related_regulations": [
+    "MiFIR_EU",
+    "EMIR_EU",
+    "MAR_EU",
+    "GDPR_EU",
+    "PSD2_EU"
+  ],
+  "regulatory_bodies": [
+    {
+      "name": "European Securities and Markets Authority (ESMA)",
+      "role": "EU-level supervision and technical standards",
+      "website": "https://www.esma.europa.eu"
+    },
+    {
+      "name": "National Competent Authorities",
+      "role": "Authorization and supervision in member states",
+      "examples": ["BaFin (Germany)", "AMF (France)", "CONSOB (Italy)", "CNMV (Spain)"]
+    }
+  ]
+}

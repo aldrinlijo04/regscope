@@ -1,0 +1,39 @@
+# Render Blueprint for RegScope
+# This file enables one-click deployment on Render
+
+services:
+  # Backend API Service
+  - type: web
+    name: regscope-api
+    runtime: python
+    region: oregon
+    plan: free
+    branch: main
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false  # Set manually in Render dashboard
+      - key: GEMINI_MODEL_NAME
+        value: gemini-pro
+      - key: PYTHON_VERSION
+        value: 3.12.0
+    healthCheckPath: /
+
+  # Frontend Static Site
+  - type: web
+    name: regscope-frontend
+    runtime: static
+    region: oregon
+    plan: free
+    branch: main
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: regscope-api
+          property: host

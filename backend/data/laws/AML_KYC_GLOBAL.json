@@ -1,0 +1,185 @@
+{
+  "law_id": "AML_KYC_GLOBAL",
+  "full_name": "Anti-Money Laundering and Know Your Customer Global Standards",
+  "jurisdiction": "Global (FATF-based)",
+  "type": "Financial Crime Prevention",
+  "effective_date": "2012-02-16",
+  "last_updated": "2025-01-01",
+  "description": "International standards for Anti-Money Laundering (AML) and Know Your Customer (KYC) based on FATF recommendations, implemented globally through national legislation.",
+  "key_requirements": [
+    {
+      "id": "AML_R001",
+      "title": "Customer Due Diligence (CDD)",
+      "description": "Financial institutions must identify and verify customer identity before establishing business relationships",
+      "category": "Identity Verification",
+      "severity": "critical",
+      "requirements": [
+        "Verify customer identity using reliable, independent source documents",
+        "Identify beneficial owners and control structure for legal entities",
+        "Understand the purpose and nature of the business relationship",
+        "Conduct ongoing due diligence and transaction monitoring",
+        "Apply enhanced due diligence for high-risk customers"
+      ]
+    },
+    {
+      "id": "AML_R002",
+      "title": "Enhanced Due Diligence (EDD)",
+      "description": "Apply additional scrutiny for high-risk customers, PEPs, and cross-border transactions",
+      "category": "Risk Management",
+      "severity": "critical",
+      "requirements": [
+        "Identify Politically Exposed Persons (PEPs) and obtain senior management approval",
+        "Determine source of wealth and source of funds for high-risk customers",
+        "Conduct enhanced monitoring of business relationship and transactions",
+        "Apply additional verification measures for non-face-to-face customers",
+        "Review relationships with customers from high-risk jurisdictions"
+      ]
+    },
+    {
+      "id": "AML_R003",
+      "title": "Transaction Monitoring",
+      "description": "Monitor transactions to detect suspicious activity and patterns indicative of money laundering",
+      "category": "Monitoring",
+      "severity": "high",
+      "requirements": [
+        "Implement automated transaction monitoring systems",
+        "Define and regularly update suspicious activity scenarios",
+        "Monitor for unusual transaction patterns, volumes, or velocities",
+        "Screen transactions against sanctions lists (OFAC, UN, EU)",
+        "Generate alerts for manual review by compliance team"
+      ]
+    },
+    {
+      "id": "AML_R004",
+      "title": "Suspicious Activity Reporting (SAR)",
+      "description": "Report suspicious transactions to Financial Intelligence Unit (FIU)",
+      "category": "Reporting",
+      "severity": "critical",
+      "requirements": [
+        "File Suspicious Activity Reports when money laundering is suspected",
+        "Submit reports to appropriate FIU within regulatory timeframes",
+        "Include all relevant transaction details and suspicion basis",
+        "Maintain confidentiality and prohibit tipping off customers",
+        "Keep records of all SARs filed for regulatory retention period"
+      ]
+    },
+    {
+      "id": "AML_R005",
+      "title": "Record Keeping",
+      "description": "Maintain comprehensive records of customer identification, transactions, and compliance activities",
+      "category": "Documentation",
+      "severity": "high",
+      "requirements": [
+        "Retain customer identification records for minimum 5 years after relationship ends",
+        "Keep transaction records for minimum 5 years after completion",
+        "Document risk assessments and due diligence decisions",
+        "Maintain audit trail of all compliance activities",
+        "Ensure records are available for regulatory inspections"
+      ]
+    },
+    {
+      "id": "AML_R006",
+      "title": "Risk-Based Approach",
+      "description": "Implement risk-based AML/CFT framework tailored to business risk profile",
+      "category": "Risk Assessment",
+      "severity": "high",
+      "requirements": [
+        "Conduct enterprise-wide AML/CFT risk assessment",
+        "Assess customer risk based on product, geography, and profile",
+        "Implement controls proportionate to identified risks",
+        "Document risk assessment methodology and findings",
+        "Review and update risk assessments periodically"
+      ]
+    },
+    {
+      "id": "AML_R007",
+      "title": "AML Compliance Program",
+      "description": "Establish comprehensive AML compliance program with policies, procedures, and training",
+      "category": "Governance",
+      "severity": "critical",
+      "requirements": [
+        "Appoint AML Compliance Officer with adequate authority",
+        "Develop written AML policies and procedures",
+        "Conduct regular AML training for all relevant employees",
+        "Perform independent audit of AML program annually",
+        "Implement internal controls and sanctions screening"
+      ]
+    },
+    {
+      "id": "AML_R008",
+      "title": "Sanctions Screening",
+      "description": "Screen customers and transactions against international sanctions lists",
+      "category": "Screening",
+      "severity": "critical",
+      "requirements": [
+        "Screen against OFAC SDN, UN, EU, and other relevant sanctions lists",
+        "Perform screening at onboarding and ongoing basis",
+        "Implement real-time transaction screening",
+        "Document screening results and match resolution",
+        "Update sanctions lists daily or as required"
+      ]
+    }
+  ],
+  "compliance_checklist": [
+    "Customer identification and verification procedures implemented",
+    "Beneficial ownership identification for legal entities",
+    "Enhanced Due Diligence for high-risk customers and PEPs",
+    "Automated transaction monitoring system operational",
+    "Suspicious Activity Reporting process established",
+    "Customer and transaction records retention for minimum 5 years",
+    "Enterprise-wide AML risk assessment conducted",
+    "AML Compliance Officer appointed with adequate authority",
+    "AML policies and procedures documented and communicated",
+    "Annual AML training program for employees",
+    "Independent audit of AML program completed annually",
+    "Real-time sanctions screening implemented",
+    "Sanctions lists updated daily",
+    "Source of wealth and funds verification for high-risk customers"
+  ],
+  "penalties": {
+    "description": "Penalties for AML non-compliance vary by jurisdiction but typically include:",
+    "examples": [
+      "Civil monetary penalties ranging from millions to billions USD",
+      "Criminal prosecution of individuals and institutions",
+      "Revocation or suspension of banking/financial services license",
+      "Reputational damage and loss of correspondent banking relationships",
+      "Director disqualification and personal liability"
+    ]
+  },
+  "related_regulations": [
+    "FATF_RECOMMENDATIONS",
+    "USA_PATRIOT_ACT",
+    "BANK_SECRECY_ACT_US",
+    "4AMLD_EU",
+    "5AMLD_EU",
+    "6AMLD_EU",
+    "MAS_AMLD_SG",
+    "AMLA_2020_MY"
+  ],
+  "regulatory_bodies": [
+    {
+      "name": "Financial Action Task Force (FATF)",
+      "role": "International standard-setting body for AML/CFT",
+      "website": "https://www.fatf-gafi.org"
+    },
+    {
+      "name": "Financial Crimes Enforcement Network (FinCEN)",
+      "role": "U.S. Financial Intelligence Unit",
+      "website": "https://www.fincen.gov"
+    },
+    {
+      "name": "Office of Foreign Assets Control (OFAC)",
+      "role": "U.S. Sanctions administration",
+      "website": "https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information"
+    }
+  ],
+  "high_risk_indicators": [
+    "Transactions with high-risk jurisdictions (FATF blacklist/greylist)",
+    "Unusual transaction patterns inconsistent with customer profile",
+    "Structuring transactions to avoid reporting thresholds",
+    "Rapid movement of funds through accounts",
+    "Transactions involving shell companies or complex ownership structures",
+    "Customer reluctance to provide information or documentation",
+    "Politically Exposed Persons (PEPs) without clear source of wealth"
+  ]
+}
