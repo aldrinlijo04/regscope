@@ -81,9 +81,11 @@ Click **"Advanced"** and add these environment variables:
 
 | Key | Value |
 |-----|-------|
-| `GEMINI_API_KEY` | `AIzaSyDMRPwXhqpdIheKagDCUKJSdPso8byMF78` |
+| `GEMINI_API_KEY` | `your_actual_gemini_api_key` |
 | `GEMINI_MODEL_NAME` | `gemini-pro` |
 | `PYTHON_VERSION` | `3.12.0` |
+
+**⚠️ SECURITY NOTE**: Never commit your API key to GitHub! Use Render's environment variables instead.
 
 ### 3.4 Deploy Backend
 

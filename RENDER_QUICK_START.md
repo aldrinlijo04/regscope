@@ -21,7 +21,7 @@ git push -u origin main
    - Build Command: `pip install -r requirements.txt`
    - Start Command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
 5. **Environment Variables:**
-   - `GEMINI_API_KEY` = `AIzaSyDMRPwXhqpdIheKagDCUKJSdPso8byMF78`
+   - `GEMINI_API_KEY` = `your_actual_gemini_api_key`
    - `GEMINI_MODEL_NAME` = `gemini-pro`
 6. Click **"Create Web Service"**
 
